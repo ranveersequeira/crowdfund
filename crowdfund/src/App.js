@@ -1,21 +1,16 @@
 import React from 'react'
 import Header from './components/Header/Header'
-import Styled from 'styled-components'
 import DashBoard from './components/DashBoard/DashBoard'
+import FundProvider from './components/Context/FundContext'
 
 
-const Container = Styled.div`
-
-    height: 100vh;
-
-`
 
 const App = () => {
     return (
-        <Container>
+        <FundProvider>
             < Header />
             <DashBoard />
-        </Container>
+        </FundProvider>
     )
 }
 

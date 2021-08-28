@@ -1,5 +1,5 @@
 
-export default {
+const data =   {
     primary: {
         moderate:"#3cb4ac",
         dark_cyan:"#147b74"
@@ -23,3 +23,5 @@ export default {
         desktop:`url("https://i.ibb.co/Zdnb94P/image-hero-desktop.jpg")`
     }
 };
+
+export default data;
