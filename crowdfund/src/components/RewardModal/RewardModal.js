@@ -32,11 +32,14 @@ const RewardModal = ({closeModal }) => {
     const getValue = (e) => {
         e.preventDefault();
         let v = parseInt(e.target.value)
-
         setValue(v)
 
     }
     const thanksPage = () => {
+             setFunddata({...funddata ,
+                
+                backer:funddata.backer + 1
+        })
         setOpen(true)
     }
 
